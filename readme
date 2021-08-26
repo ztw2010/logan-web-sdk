@@ -1,0 +1,7 @@
+支持Vite工程的logan-web SDK
+
+npm install logan-sdk-custom --save
+
+npm run build
+
+npm publish

@@ -1,0 +1,10 @@
+declare type MiliSeconds = number;
+export declare const K_BYTE = 1024;
+export declare const M_BYTE: number;
+export declare function sizeOf(str: string): number;
+export declare function isValidDay(day: string): boolean;
+export declare function dateFormat2Day(date: Date): string;
+export declare function getStartOfDay(date: Date): MiliSeconds;
+export declare function dayFormat2Date(day: string): Date;
+export declare const ONE_DAY_TIME_SPAN: number;
+export {};
